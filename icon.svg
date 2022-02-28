@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg">
-  <title>droplet</title>
+  <title>pink</title>
   <style media="(prefers-color-scheme: dark)">
-    circle { fill: violet }
+    circle { fill: deeppink }
   </style>
-  <circle fill="coral" cx="50%" cy="50%" r="50%" />
+  <circle fill="pink" cx="50%" cy="50%" r="50%" />
 </svg>

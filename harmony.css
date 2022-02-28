@@ -1,0 +1,50 @@
+:root {
+  --dew-shift: filter 28ms, box-shadow 28ms;
+  --dew-slick: chocolate;
+  --dew-slime: #111;
+  --dew-solar: pink;
+  --dew-lunar: #303;
+  --dew-hover: hue-rotate(-60deg);
+}
+
+:link {
+  box-shadow: 0 0 1em 1ex mistyrose;
+  text-decoration: overline dashed;
+}
+
+:focus {
+  outline-width: thin;
+  outline-style: dashed;
+}
+
+html {
+  font-family: fantasy, sans-serif;
+  font-size: calc(1em + 2vw);
+}
+
+.voz {
+  font-size: 0;
+}
+
+body {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  overflow-wrap: anywhere;
+  padding: 1em;
+  min-height: 100vh;
+  transform: rotate(180deg);
+}
+
+li:not(:last-child) {
+  list-style: circle;
+}
+
+@media (min-width: 28em) {
+  .ratio {
+    font-size: 1.618em;
+  }
+}
